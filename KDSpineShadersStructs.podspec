@@ -5,13 +5,14 @@
 #
 Pod::Spec.new do |s|
   s.name                = 'KDSpineShadersStructs'
-  s.version             = '1.2.0'
+  s.version             = '1.2.1'
   s.summary             = 'Metal shaders structs for spine'
   s.description         = <<-DESC
 Metal shaders structs for spine.
                        DESC
   s.homepage            = 'https://github.com/kindvoon/KDSpineShadersStructs.git'
   s.author              = { "Esoteric Software LLC  " => "https://github.com/kindvoon/KDSpineShadersStructs.git" }
+
   s.license             = { :file => 'LICENSE' }
   s.platform            = :ios, '13.0'
 
@@ -24,8 +25,6 @@ Metal shaders structs for spine.
     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
     'CLANG_CXX_LIBRARY' => 'libc++'
   }
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-
 
 end
 
